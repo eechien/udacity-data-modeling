@@ -16,3 +16,10 @@ actually getting played. This allows us to more easily aggregate the data around
 The `songs` and `artists` tables are populated by the song_data files. While `time`, `users`,
 and `songplays` comes from our log_data files.
 
+## Running the project
+
+First create the tables by running:
+`python create_tables.py`
+
+Next execute the ETL pipeline by running:
+`python etl.py`
