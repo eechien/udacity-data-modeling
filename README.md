@@ -16,12 +16,3 @@ actually getting played. This allows us to more easily aggregate the data around
 The `songs` and `artists` tables are populated by the song_data files. While `time`, `users`,
 and `songplays` comes from our log_data files.
 
-
-## Song play analysis
-
-Get the top 5 hits.
-
-Get the top 5 artists.
-
-
-
