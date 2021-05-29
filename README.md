@@ -16,6 +16,22 @@ actually getting played. This allows us to more easily aggregate the data around
 The `songs` and `artists` tables are populated by the song_data files. While `time`, `users`,
 and `songplays` comes from our log_data files.
 
+## Files in repo
+
+- data
+  - log_data
+    - Contains JSON data on user activity.
+  - song_data
+    - Contains JSON data of songs.
+- create_tables.py
+  - Drops tables if they exist, then recreates the tables.
+- etl.py
+  - ETL pipeline for extracting data from log_data and song_data into the tables created by create_tables.py
+- sql_queries.py
+  - Contains the SQL queries for creating, inserting, and dropping tables
+- etl.ipynb
+- test.ipynb
+
 ## Running the project
 
 First create the tables by running:
